@@ -1,0 +1,133 @@
+body, ul {
+    background-color: black;
+    color: #fff;
+    font-family: 'Inter', sans-serif;
+}
+
+ul {
+    list-style: none;
+    padding: 0;
+}
+
+.main_header {
+    max-width: 566px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.main_header img {
+    margin-top: 25px;
+    width: 165px;
+    height: 29px;
+}
+
+.main_header ul li a {
+    font-size: 29px;
+    line-height: 35px;
+    text-decoration: none;
+    color: #FFFFFF;
+}
+
+main section header {
+    text-align: center;
+}
+
+.estilo-comunitario {
+    font-style: normal;
+    font-weight: 400;
+}
+
+main section header h1 {
+    font-weight: 700;
+    font-size: 54px;
+    line-height: 65px;
+    margin-top: 30px;
+}
+
+p.texto {
+    font-size: 29px;
+    line-height: 35px;
+    text-align: center;
+}
+
+section {
+    max-width: 566px;
+    margin: 0 auto;
+}
+
+.form-group {
+    display: flex;
+    flex-direction: column;
+}
+
+.form-group label {
+    font-size: 33px;
+    line-height: 40px;
+    margin: 15px 0;
+}
+
+.form-group input {
+    border: none;
+    width: 90%;
+    height: 53px;
+    background: #7F7F7F;
+    border-radius: 25px;
+}
+
+.form-group button {
+    margin: 30px auto 0;
+    width: 214px;
+    height: 50px;
+    background: #8C77E0;
+    border: 1px solid #000000;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 25px;
+    cursor: pointer;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 33px;
+    line-height: 40px;
+    color: #FFFFFF;
+}
+
+.provedor{
+      text-align: center;
+      margin: 27px 0 60px;
+}
+
+.provedor p{
+    margin-bottom: 35px;
+}
+
+.provedor a {
+    padding: 8px 30px;
+    font-weight: 400;
+    font-size: 33px;
+    line-height: 40px;
+    color: #fff;
+    text-decoration: none;
+    background: #8C77E0;
+    border: 1px solid #000000;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 25px;
+}
+
+/*Torna mais proporcional*/
+.form-group input[type="email"], .form-group input[type="password"]{
+    font-size: 25px;
+    padding-left: 20px;
+}
+
+@media only screen and (max-width: 450px) {
+
+    section{
+        width: 95%;
+    }
+
+    .provedor a{
+        font-size: 22px;
+    }
+}
+
+
